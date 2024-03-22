@@ -1,0 +1,35 @@
+type: multicraft.MultiCrafter
+name: Diamond semiconductor maker
+description: It can make Semiconductor with Diamond and Nitrogen.
+health: 140
+size:3
+itemCapacity: 21
+requirements: [
+  atomicmindustry-Diamond/10
+  lead/75
+  copper/120
+]
+haspower:true
+hasLiquids:true
+hasItems:true
+recipes: 
+[
+{
+  input: {
+    items: atomicmindustry-Diamond/3
+    fluids: [
+      nitrogen/0.05
+    ]
+  }
+  output: {
+    items: atomicmindustry-NitrogenCarbide/3
+    icon: atomicmindustry-NitrogenCarbide
+  }
+  power: 18
+  craftTime: 15
+}
+]
+category:crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+research: mechanical-drill

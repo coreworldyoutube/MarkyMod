@@ -1,0 +1,35 @@
+type: multicraft.MultiCrafter
+name: MaX
+description: test
+health: 140
+size:3
+itemCapacity: 21
+requirements: [
+  atomicmindustry-Diamond/10
+  lead/75
+  copper/120
+]
+haspower:true
+hasLiquids:true
+hasItems:true
+recipes: 
+[
+{
+  input: {
+    items: copper/35
+    fluids: [
+      nitrogen/0.35
+    ]
+  }
+  output: {
+    items: emperorofmarkypack-ItDu/1
+    icon: atomicmindustry-NitrogenCarbide
+  }
+  power: 18
+  craftTime: 15
+}
+]
+category:crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+research: mechanical-drill

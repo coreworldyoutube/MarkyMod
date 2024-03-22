@@ -1,0 +1,47 @@
+    generator: "AsteroidGenerator",
+    parent: "serpulo",
+    iconColor: 1a236e,
+    orbitRadius: 12,
+    hasAtmosphere: false,
+    updateLighting: false,
+    drawOrbit: false,
+    accessible: true,
+    alwaysUnlocked: true,
+    defaultCore: "core-2",
+    clearSectorOnLose: true,
+    allowSectorInvasion: false,
+	allowLaunchToNumbered: false,
+    radius: 1,
+    hiddenItems: [
+        "copper",
+        "lead",
+        "sand",
+        "coal",
+        "graphite",
+        "silicon",
+        "titanium",
+        "thorium",
+        "plastanium",
+        "water",
+        "beryllium",
+        "BerylliumCopper",
+        "Diamond",
+        "oxide",
+        "scrap"
+    ],
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.1
+  planet: 1
+  color1: 0079C3
+  color2: 248A66
+  octaves: 4
+  persistence: 0.2
+  scale: 1.1
+  mag: 5
+  coct: 4
+  cper: 1.4
+  cscl: 0.3
+  cthresh: 0.01
+  }

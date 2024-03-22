@@ -1,0 +1,34 @@
+type: multicraft.MultiCrafter
+name: Beryllium copper crafter
+description: It is able to make beryllium copper
+health: 280
+size:2
+itemCapacity: 11
+requirements: [
+  copper/50
+  beryllium/75
+]
+haspower:true
+hasLiquids:false
+hasItems:true
+craftTime: 240
+recipes: 
+[
+{
+  input: {
+    items: [
+      graphite/2
+    ]
+  }
+  output: {
+    items: atomicmindustry-Diamond/2
+    icon: atomicmindustry-Diamond
+  }
+  power: 3.5
+  craftTime: 240.0
+}
+]
+category:crafting
+idleSound: respawning
+idleSoundVolume: 0.5
+research: mechanical-drill
