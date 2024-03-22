@@ -1,0 +1,19 @@
+{
+name: "emperorofmarkypack"
+displayName: '''
+マッキー帝国パック
+'''
+author: coreworld,hkaritake,junyan
+description: '''
+帝国マッキーとは、 
+…まぁ、とある帝国です。このMODはハイテク産業の拡張によるものです。 
+開発中で、徐々に追加していこうと思います。
+'''
+version: "1.0"
+minGameVersion: "138"
+dependencies: [
+"multi-crafter",
+"atomicmindustry"
+]
+hidden: true
+}
